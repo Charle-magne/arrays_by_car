@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="arrays" />
+        <module name="arrays_by_carl" />
       </profile>
     </annotationProcessing>
   </component>
