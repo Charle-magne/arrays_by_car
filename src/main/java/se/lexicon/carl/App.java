@@ -17,7 +17,8 @@ public class App
 //        averageOfValues_06();
 //        printOnlyOddNumbers_07();
 //        removeDuplicates_08();
-        addElementsToArray_09();
+//        addElementsToArray_09();
+        multiplicationArray_10();
 
 
     }
@@ -156,6 +157,21 @@ public class App
         System.out.println(array2[0]);
     }
 
+    public static void multiplicationArray_10(){
 
+        int[][] array1 = new int[10][10];
+
+        for (int i=0; i<array1.length; i++){
+            for (int j=0; j<array1[i].length; j++){
+                array1[i][j] = (i+1)*(j+1);
+                System.out.print(array1[i][j] + "\t ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void weirdo_11(){
+
+    }
 
 }
